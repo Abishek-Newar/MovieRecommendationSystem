@@ -2,7 +2,12 @@
 export default {
   content: ["./src/**/*.{html,js,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        madimi: ["Madimi One", "sans-serif"]
+      }
+    },
+    
   },
   plugins: [],
 }
